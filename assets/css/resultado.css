@@ -1,0 +1,32 @@
+.resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 4rem;
+    padding-left: 25px;
+}
+.resultado p strong {
+    color: var(--Purple);
+}
+
+@media(max-width:375px){
+    .resultado{
+        display: flex;
+        flex-direction: column;
+        
+        padding: 0;
+        font-size: 2rem;
+    }
+    .resultado div{
+        margin: 20px;
+        order:2
+    }
+    .resultado button{
+
+        order:1;
+        position: static;
+        margin: 10px auto;
+    }
+
+}
