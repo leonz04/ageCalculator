@@ -10,7 +10,7 @@
     color: var(--Purple);
 }
 
-@media(max-width:375px){
+@media(max-width:475px){
     .resultado{
         display: flex;
         flex-direction: column;
